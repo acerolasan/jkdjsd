@@ -1,4 +1,4 @@
-baseURL      = "https://www.example.com/"
+baseURL      = "https://photos.acerola.blue/"
 title        = "Gallery Deluxe"
 disableKinds = ["section", "taxonomy", "term"]
 
@@ -18,11 +18,7 @@ disableKinds = ["section", "taxonomy", "term"]
         # See https://gohugo.io/content-management/image-processing/#exif-data for how to filter tags.
         enable_exif = true
 
-        # Optional watermark file for the large images.
-        [params.gallerydeluxe.watermark]
-            image = "images/gopher-hero8.png" # relative to /assets
-            posx  = "left"                    # one of "left", "center", "right"
-            posy  = "bottom"                  # one of "top", "center", "bottom"
+
 
 [build]
     [[build.cacheBusters]]
